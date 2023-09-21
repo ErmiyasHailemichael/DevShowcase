@@ -372,6 +372,27 @@ article {
 article .icon {
   cursor: default;
 }
+/* Dark mode */
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+#dark-mode-toggle-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+
+.dark-mode-icon {
+  width: 30px;
+  height: 30px;
+  background-image: url('assets/brightness-and-contrast.png');
+  background-size: cover;
+}
+/* Dark mode */
+
 
 /* PROJECTS SECTION */
 
