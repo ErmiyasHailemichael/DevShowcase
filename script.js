@@ -7,7 +7,7 @@ function toggleMenu() {
 // TEXT ANIMATION FOR LAST NAME 
   const lastName = document.querySelector(".last-name");
 
-  // Start the animation when the page loads
+
   window.addEventListener("load", () => {
     lastName.style.animationName = "slide";
   });
@@ -24,7 +24,7 @@ function toggleMenu() {
     localStorage.setItem("theme", isDarkMode ? "dark-mode" : "light-mode");
   }
 
-  // Add a click event listener to the button
+
   toggleButton.addEventListener("click", toggleDarkMode);
 
   // Check local storage for the current theme
@@ -32,3 +32,7 @@ function toggleMenu() {
   if (currentTheme) {
     body.classList.add(currentTheme);
   }
+
+
+
+  
