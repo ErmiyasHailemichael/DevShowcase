@@ -78,7 +78,7 @@ a:hover {
       transform: translateX(0);
     }
     100% {
-      transform: translateX(100%); /* Slide to the right */
+      transform: translateX(100%); 
     }
   }
   /* TEXT ANIMATION FOR LAST NAME -END */
